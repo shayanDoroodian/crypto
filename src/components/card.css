@@ -1,0 +1,21 @@
+.card {
+	width: 30%;
+	/* border: 1px solid #000; */
+	margin-bottom: 100px;
+	/* background-color: var(--background); */
+	border-radius: 25px;
+	box-shadow: var(--shadow);
+	position: relative;
+	padding-bottom: 20px;
+}
+.card img {
+	width: 25%;
+	transform: translateY(-50%) !important;
+	height: auto;
+}
+@media screen and (max-width: 600px) {
+	.card {
+		width: 90%;
+		margin: 30px auto;
+	}
+}
